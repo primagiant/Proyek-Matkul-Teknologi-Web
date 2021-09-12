@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #66a2f0;
+    height: 100vh;
+    padding : 5rem;
+}
+
+.title {
+    color: white;
+}
+
+form {
+    background: #66a2f0;
+    box-shadow:  20px 20px 60px #578acc,
+                 -20px -20px 60px #75baff;
+    padding: 2rem;
+    margin-top: 1.3rem;
+    border-radius: 1.4rem;
+    width: 30rem;
+    overflow: auto;
+}
+
+form::after {
+    content: "";
+    clear: both;
+}
+
+label {
+    font-size: 1.25rem;
+    color: white;
+}
+
+button {
+    margin-top: 1.25rem;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: #3e87e6;
+    color: white;
+    float: right;
+}
+
+button:hover {
+    background: #307fe6;
+}
+
+.text-input {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .5rem;
+}
+.text-input input {
+    outline-color: #4d4dd1;
+    border: none;
+    padding: .5rem 1rem;
+    font-size: .93rem;
+    border-radius: 5px;
+}
+
+.radio-input {
+    display: flex;
+    flex-direction: column;
+}
+.radio-input div {
+    margin-left: 2rem;
+    color: white;
+}
+
+.check-box {
+    display: flex;
+    flex-direction: column;
+}
+.check-box div {
+    margin-left: 2rem;
+    color: white;
+}
+
+.select-box{
+    display: flex;
+    flex-direction: column;
+}
+
+.select-box select{
+    font-size: 0.93rem;
+    width: 10rem;
+    margin-top: .25rem;
+    outline-color: #4d4dd1;
+    border: none;
+    padding: .47rem;
+    border-radius: .5rem;
+}
+
+.text-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.text-area textarea {
+    outline-color: #4d4dd1;
+    border: none;
+    border-radius: 10px;
+    padding: .67rem;
+    font-size: .93rem;
+}

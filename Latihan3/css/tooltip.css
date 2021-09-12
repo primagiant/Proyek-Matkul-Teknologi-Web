@@ -1,0 +1,14 @@
+/* 
+Jika Ingin Menggunakan Tooltip Tolong Isi 
+Class "tooltip" Pada Parent 
+dan Berikan Class 
+"tooltip-text" 
+Pada span 
+Tersebut
+*/
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+    right: -1.5rem;
+}

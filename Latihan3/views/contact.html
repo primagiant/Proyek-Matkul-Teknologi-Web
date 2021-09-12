@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="../css/tooltip.css">
+
+    <!-- Fonts CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand&display=swap" rel="stylesheet">
+
+    <!-- Tailwindcss -->
+    <link rel="stylesheet" href="../css/tailwind.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav
+        class="absolute right-0 left-0 h-32 bg-gradient-to-r from-primary to-secondary text-white font-quicksand z-10 shadow-navShadow">
+        <div
+            class="container mx-auto flex flex-col items-center justify-center h-full sm:flex-row sm:justify-between sm:items-center">
+            <div class="sm:ml-6">
+                <p class="font-pacifico text-2xl lg:text-3xl">My Website</p>
+            </div>
+
+            <div class="mt-2 sm:mt-0 sm:mr-6">
+                <a class="mr-4 hover:text-gray-300" href="index.html">Beranda</a>
+                <a class="hover:text-gray-300" href="contact.html">Contact</a>
+                <a class="ml-4 hover:text-gray-300" href="about.html">About</a>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navigation Bar -->
+
+    <div class="flex">
+        <!-- Side Bar -->
+        <aside
+            class="hidden fixed top-0 bottom-0 bg-black shadow-sideShadow w-32 md:flex flex-col items-center justify-between h-full py-8">
+
+            <!-- Link -->
+            <div>
+                <!-- Side Text -->
+                <div class="">
+                    <p class="text-white font-pacifico text-center">My</p>
+                    <p class="text-white font-pacifico text-center">Website</p>
+                </div>
+                <!-- End Side Text -->
+
+                <a href="index.html"
+                    class="tooltip bg-gradient-to-tr from-ternary to-side w-14 h-14 flex justify-center items-center rounded-lg mt-20 text-white hover:text-indigo-500">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M10.707 2.293a1 1 0 00-1.414 0l-7 7a1 1 0 001.414 1.414L4 10.414V17a1 1 0 001 1h2a1 1 0 001-1v-2a1 1 0 011-1h2a1 1 0 011 1v2a1 1 0 001 1h2a1 1 0 001-1v-6.586l.293.293a1 1 0 001.414-1.414l-7-7z">
+                        </path>
+                    </svg>
+                    <span
+                        class="invisible opacity-0 absolute bg-white text-primary rounded full text-xs p-1 tooltip-text transition duration-500">
+                        Beranda
+                    </span>
+                </a>
+
+                <a href="contact.html"
+                    class="tooltip bg-gradient-to-tr from-ternary to-side w-14 h-14 flex justify-center items-center rounded-lg mt-4  text-white hover:text-indigo-500">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
+                        </path>
+                    </svg>
+                    <span
+                        class="invisible opacity-0 absolute bg-white text-primary rounded full text-xs p-1 tooltip-text transition duration-500">
+                        Contact
+                    </span>
+                </a>
+
+                <a href="about.html"
+                    class="tooltip bg-gradient-to-tr from-ternary to-side w-14 h-14 flex justify-center items-center rounded-lg mt-4  text-white hover:text-indigo-500">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <span
+                        class="invisible opacity-0 absolute bg-white text-primary rounded full text-xs p-1 tooltip-text transition duration-500">
+                        About
+                    </span>
+                </a>
+            </div>
+            <!-- End Link -->
+
+            <!-- Sign Up and Sign in -->
+            <div>
+                <a href="#"
+                    class="tooltip bg-gradient-to-tr from-green-500 to-green-700 w-14 h-14 flex justify-center items-center rounded-lg  text-white hover:text-primary">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 3a1 1 0 011 1v12a1 1 0 11-2 0V4a1 1 0 011-1zm7.707 3.293a1 1 0 010 1.414L9.414 9H17a1 1 0 110 2H9.414l1.293 1.293a1 1 0 01-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <span
+                        class="invisible opacity-0 absolute bg-white text-primary rounded full text-xs p-1 tooltip-text transition duration-500">
+                        Sign In
+                    </span>
+                </a>
+                <a href="#"
+                    class="tooltip bg-gradient-to-tr from-yellow-500 to-yellow-700 w-14 h-14 flex justify-center items-center rounded-lg mt-4  text-white hover:text-primary">
+                    <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                            d="M3 17a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM6.293 6.707a1 1 0 010-1.414l3-3a1 1 0 011.414 0l3 3a1 1 0 01-1.414 1.414L11 5.414V13a1 1 0 11-2 0V5.414L7.707 6.707a1 1 0 01-1.414 0z"
+                            clip-rule="evenodd"></path>
+                    </svg>
+                    <span
+                        class="invisible opacity-0 absolute bg-white text-primary rounded full text-xs p-1 tooltip-text transition duration-500">
+                        Sign Up
+                    </span>
+                </a>
+            </div>
+            <!-- End Sign Up and Sign in -->
+
+        </aside>
+        <!-- End Side Bar -->
+
+        <!-- Content -->
+        <div class="md:ml-32 mt-32 w-full bg-gradient-to-r from-primary to-secondary text-white font-quicksand">
+            <div class="p-12 flex flex-col lg:flex-row lg:justify-center lg:items-center">
+                <div class="lg:w-1/2">
+                    <h1 class="font-bold text-2xl lg:text-5xl">Hubungi kami</h1>
+                    <p class="mt-3 lg:text-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sint in dolor
+                        exercitationem error
+                        optio nam ab, provident iusto vel aliquam, accusamus consequuntur tempora iste doloribus minus
+                        id? Cumque, expedita natus.</p>
+                    <p class="flex flex-row mt-3 lg:mt-6 lg:text-lg">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                                clip-rule="evenodd"></path>
+                        </svg>
+                        <span class="ml-2">
+                            Singaraja
+                        </span>
+                    </p>
+                    <p class="flex flex-row mt-3 lg:mt-6 lg:text-lg">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z">
+                            </path>
+                        </svg>
+                        <span class="ml-2">
+                            0878-5428-5989
+                        </span>
+                    </p>
+                    <p class="flex flex-row mt-3 lg:mt-6 lg:text-lg">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                        </svg>
+                        <span class="ml-2">
+                            prima.giant@undiksha.ac.id
+                        </span>
+                    </p>
+                </div>
+
+                <form class="mt-12 lg:w-1/2 lg:mt-0" action="">
+                    <h2 class="text-2xl font-bold">Komentar dan Saran</h2>
+                    <div class="mt-3 flex flex-col">
+                        <label class="text-lg font-semibold mb-1 ml-2" for="nama">Nama</label>
+                        <input class="p-2 text-lg text-primary rounded-md max-w-lg" type="text" id="nama" name="nama">
+                    </div>
+                    <div class="mt-3 flex flex-col">
+                        <label class="text-lg font-semibold mb-1 ml-2" for="Email">Email</label>
+                        <input class="p-2 text-lg text-primary rounded-md max-w-lg" type="email" id="email"
+                            name="email">
+                    </div>
+                    <div class="mt-3 flex flex-col">
+                        <label class="text-lg font-semibold mb-1 ml-2" for="Phone">Phone</label>
+                        <input class="p-2 text-lg text-primary rounded-md max-w-lg" type="number" id="phone"
+                            name="phone">
+                    </div>
+                    <div class="mt-3 flex flex-col">
+                        <label class="text-lg font-semibold mb-1 ml-2" for="Phone">Comment</label>
+                        <textarea class="p-2 text-lg text-primary rounded-md max-w-lg" name="comment" id="" cols="20"
+                            rows="5"></textarea>
+                    </div>
+
+                    <div class="mt-3">
+                        <button
+                            class="bg-gradient-to-r from-ternary to-side  hover:bg-gradient-to-r hover:from-side hover:to-ternary py-2 px-8 rounded-lg shadow-lg"
+                            type="button">
+                            Kirim
+                        </button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Footer -->
+            <section
+                class="bg-gray-300 w-full h-16 mt-32 text-primary font-semibold flex items-center justify-between px-12">
+                <p>Copyright 2021</p>
+                <p>Created by PrimaGiant</p>
+            </section>
+            <!-- End Footer -->
+        </div>
+        <!-- End Content -->
+    </div>
+
+</body>
+
+</html>

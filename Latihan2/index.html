@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Latihan 2</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="title">Update Biodata Karyawan</h1>
+            <form action="">
+                <!-- Nama -->
+                <div class="text-input">
+                    <label for="name">Nama</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Tuliskan nama anda"
+                    />
+                </div>
+
+                <!-- Password -->
+                <div class="text-input">
+                    <label for="password">Password</label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        placeholder="Tuliskan password anda"
+                    />
+                </div>
+
+                <!-- Jenis Kelamin -->
+                <label>Jenis Kelamin</label>
+                <div class="radio-input">
+                    <div>
+                        <input
+                            type="radio"
+                            name="jenis-kelamin"
+                            id="laki-laki"
+                            value="laki-laki"
+                        />
+                        <span>Laki-laki</span>
+                    </div>
+                    <div>
+                        <input
+                            type="radio"
+                            name="jenis-kelamin"
+                            id="perempuan"
+                            value="perempuan"
+                        />
+                        <span>Perempuan</span>
+                    </div>
+                </div>
+
+                <!-- Hobi -->
+                <div class="check-box">
+                    <label>Hobi</label>
+                    <div>
+                        <input type="checkbox" name="membaca" value="membaca" />
+                        <span>Membaca</span>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="menulis" value="menulis" />
+                        <span>Menulis</span>
+                    </div>
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="menonton"
+                            value="menonton"
+                        />
+                        <span>Menonton</span>
+                    </div>
+                </div>
+
+                <!-- Asal Kota -->
+                <div class="select-box">
+                    <label>Asal Kota</label>
+                    <select name="asal-kota" id="asal-kota">
+                        <option value="Singaraja">Singaraja</option>
+                        <option value="Denpasar">Denpasar</option>
+                        <option value="Bangli">Bangli</option>
+                        <option value="Tabanan">Tabanan</option>
+                    </select>
+                </div>
+
+                <div class="text-area">
+                    <label>Komentar</label>
+                    <textarea
+                        name="komentar"
+                        id="komentar"
+                        cols="30"
+                        rows="4"
+                        placeholder="Tulis komentar anda disini"
+                    ></textarea>
+                </div>
+
+                <button type="submit" name="submit" id="submit">Simpan</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100&display=swap');
+* {
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background: #e3e3ee;
+    height: 100vh;
+    padding : 5rem;
+}
+
+.bio-mahasiswa {
+    background: #dcdcee;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.bio-title {
+    margin-bottom: 3rem;
+}
+
+.bio-title hr {
+    margin-top: .4rem;
+    width: 16rem;
+}
+
+.bio-deskripsi {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.bio-deskripsi img {
+    height: 150px;
+    margin-right: 1.5rem;
+}
+
+.t-devider {
+    padding: 0 1.6rem;
+}
+
+.pendidikan h3 {
+    margin-bottom: .8rem;
+}
+
+.pendidikan table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pendidikan table thead tr {
+    background: #b3b3d1;
+}
+
+.pendidikan table thead tr th {
+    padding: .6rem;
+}
+
+.pendidikan table tbody td {
+    padding: .3rem;
+}
